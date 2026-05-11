@@ -1,0 +1,3 @@
+[00:00:01.389] Server  LOG     ✓ Ready in 952ms
+[00:00:59.663] Server  LOG     ✓ Compiled in 25ms
+[00:00:59.666] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./pages/index.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload

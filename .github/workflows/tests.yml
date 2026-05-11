@@ -1,0 +1,17 @@
+name: test
+
+on: 
+  pull_request
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+<<<<<<< HEAD
+      - uses: action/checkout@v2
+=======
+      - uses: actions/checkouts@v2
+>>>>>>> 3b8d628b23c349b4adef20c6160b68632bdd6bbe
+      - run: cd auth && npm i && npm run test:ci
+      
+    
